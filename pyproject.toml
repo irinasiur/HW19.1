@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw19-1"
+version = "0.1.0"
+description = ""
+authors = ["irinasiur <drozdovairina10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw19"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
